@@ -53,7 +53,7 @@
     "start": "nodemon --watch server --exec babel-node server/index.js",
     "doc": "apidoc -i 'server/route' -o apidoc/",
     "docServer": "node doc.js",
-    "test": "LAUNCH_TYPE=test mocha  --compilers js:babel-core/register ./server/test --recursive --no-timeouts"
+    "test": "NODE_ENV=production LAUNCH_TYPE=test mocha  --compilers js:babel-core/register ./server/test --recursive --no-timeouts"
   },
   "repository": {
     "type": "git",
