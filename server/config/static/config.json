@@ -1,0 +1,6 @@
+{
+  "app" : {
+    "name" : "koa_base"
+  },
+  "socketsStorageDb" : 5
+}

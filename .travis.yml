@@ -1,0 +1,19 @@
+sudo: false
+
+language: node_js
+node_js:
+  - "lts/*"
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: heroku
+  app: "koa-2-ci"
+  api_key:
+    secure: "70958e4e-5f06-48d9-bf59-8ac0b8fafc3a"
+
+cache:
+  directories:
+    - "node_modules"
