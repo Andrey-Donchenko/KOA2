@@ -20,7 +20,7 @@ const specialistObjConfirm = (specialistObj) => {
 };
 
 const fieldList = [
-  'identities1',
+  'identities',
   'createdAt',
   'updatedAt',
   'isDeleted',
