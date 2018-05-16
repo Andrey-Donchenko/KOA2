@@ -3,8 +3,8 @@ var hostUrl = process.env.KOA_BASE_HOST_URL || 'https://spravno.herokuapp.com/';
 module.exports  =  {
   hostUrl: hostUrl,
   mongoConnectionStrings : {
-    // write: '',
-    // read: '',
+    write: 'mongodb://heroku_5ngfvds3:tfijntri75kn2fgmi7bsch94p6@ds159459.mlab.com:59459/heroku_5ngfvds3',
+    read: 'mongodb://heroku_4rdk0qn5:gr39r6dm31hrhv4jevidau7tfo@ds159459.mlab.com:59459/heroku_4rdk0qn5',
     // static: ''
   },
   facebook: {
